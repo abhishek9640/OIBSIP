@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0px 12px;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;   
+}
+
+.topleft{
+    width: 50%;
+   
+}
+.topright{
+    width: 50%;
+   
+}
+
+.section1{
+    padding-bottom: 70px;
+}
+
+.section1 h1{
+    font-size: 2rem;
+    color: rgb(253 71 71);
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbell-img{
+ width: 280px;
+}
+
+.topright .gym-img{
+  width: 546px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+/* @media (max-width: 380px) {
+   .topright .gym-img {
+       display: none;
+    }   
+} */
+
+.section2{
+   padding: 70px;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.section2 h1{
+    font-size: 3rem;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 9px;
+}
+
+.box h2{
+    font-size: 2.5rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table th{
+    border-bottom: 2px solid black;
+}
+
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+.section3 h1{
+    font-size: 3rem;
+}
+
+.section3{
+    padding: 70px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
